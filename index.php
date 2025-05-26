@@ -1,46 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Flat - Bootstrap 5 Template</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Place favicon.ico in the root directory -->
-
-    <!-- ========================= CSS here ========================= -->
-    <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
-    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css"/>
-    <link rel="stylesheet" href="assets/css/animate.css"/>
-    <link rel="stylesheet" href="assets/css/lindy-uikit.css"/>
-  </head>
-  <body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
-
-    <!-- ========================= preloader start ========================= -->
-    <div class="preloader">
-      <div class="loader">
-        <div class="spinner">
-          <div class="spinner-container">
-            <div class="spinner-rotator">
-              <div class="spinner-left">
-                <div class="spinner-circle"></div>
-              </div>
-              <div class="spinner-right">
-                <div class="spinner-circle"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ========================= preloader end ========================= -->
+<?php include_once "header.php" ?>
 
     <!-- ========================= hero-section-wrapper-2 start ========================= -->
     <section id="home" class="hero-section-wrapper-2">
@@ -120,10 +79,8 @@
       <!-- ========================= hero-2 end ========================= -->
 
     </section>
-    <!-- ========================= hero-section-wrapper-2 end ========================= -->
-
-    <!-- ========================= feature style-2 start ========================= -->
-    <section id="services" class="feature-section feature-style-2">
+  
+    <!-- section id="services" class="nomostrar feature-section feature-style-2">
       <div class="container">
         <div class="row">
           <div class="col-lg-8">
@@ -189,8 +146,10 @@
       <div class="feature-img wow fadeInLeft" data-wow-delay=".2s">
         <img src="assets/img/feature/feature-2-1.svg" alt="">
       </div>
-    </section>
+    </section -->
 		<!-- ========================= feature style-2 end ========================= -->
+
+<?php include "services.php" ?>
 
     <!-- ========================= about style-3 start ========================= -->
     <section id="about" class="about-section about-style-3">
@@ -551,76 +510,7 @@
     </section>
     <!-- ========================= clients-logo end ========================= -->
 
-		<!-- ========================= footer style-1 start ========================= -->
-    <footer class="footer footer-style-1">
-      <div class="container">
-        <div class="widget-wrapper">
-          <div class="row">
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="footer-widget wow fadeInUp" data-wow-delay=".2s">
-                <div class="logo">
-                  <a href="#0"> <img src="assets/img/logo/logo.svg" alt=""> </a>
-                </div>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis nulla placerat amet amet congue.</p>
-                <ul class="socials">
-                  <li> <a href="#0"> <i class="lni lni-facebook-filled"></i> </a> </li>
-                  <li> <a href="#0"> <i class="lni lni-twitter-filled"></i> </a> </li>
-                  <li> <a href="#0"> <i class="lni lni-instagram-filled"></i> </a> </li>
-                  <li> <a href="#0"> <i class="lni lni-linkedin-original"></i> </a> </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6 col-sm-6">
-              <div class="footer-widget wow fadeInUp" data-wow-delay=".3s">
-                <h6>Quick Link</h6>
-                <ul class="links">
-                  <li> <a href="#0">Home</a> </li>
-                  <li> <a href="#0">About</a> </li>
-                  <li> <a href="#0">Service</a> </li>
-                  <li> <a href="#0">Contact</a> </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-              <div class="footer-widget wow fadeInUp" data-wow-delay=".4s">
-                <h6>Services</h6>
-                <ul class="links">
-                  <li> <a href="#0">Web Design</a> </li>
-                  <li> <a href="#0">Web Development</a> </li>
-                  <li> <a href="#0">Seo Optimization</a> </li>
-                  <li> <a href="#0">Blog Writing</a> </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-              <div class="footer-widget wow fadeInUp" data-wow-delay=".5s">
-                <h6>Help & Support</h6>
-                <ul class="links">
-                  <li> <a href="#0">Support Center</a> </li>
-                  <li> <a href="#0">Live Chat</a> </li>
-                  <li> <a href="#0">FAQ</a> </li>
-                  <li> <a href="#0">Terms & Conditions</a> </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="copyright-wrapper wow fadeInUp" data-wow-delay=".2s">
-          <p>Design and Developed by <a href="https://uideck.com" rel="nofollow" target="_blank">UIdeck</a> Built-with <a href="#">Lindy UI Kit</a></p>
-        </div>
-      </div>
-    </footer>
-    <!-- ========================= footer style-1 end ========================= -->
-
-    <!-- ========================= scroll-top start ========================= -->
-    <a href="#" class="scroll-top"> <i class="lni lni-chevron-up"></i> </a>
-    <!-- ========================= scroll-top end ========================= -->
+<?php include_once "footer.php" ?>
 		
-
-    <!-- ========================= JS here ========================= -->
-    <script src="assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
-    <script src="assets/js/count-up.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
   </body>
 </html>
