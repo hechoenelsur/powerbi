@@ -1,0 +1,20 @@
+# Node modules (si se usa en el futuro)
+node_modules/
+
+# MacOS system files
+.DS_Store
+
+# Log files
+*.log
+
+# IDEs y editores
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+
+# Sistemas de control
+*.zip
