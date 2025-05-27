@@ -1,40 +1,90 @@
-# 📊 Landing Power BI – v1.1.0
+# 📊 Landing Power BI – Estudio Ochoa
 
-Esta es una landing modular construida en PHP, que destaca los beneficios de Microsoft Power BI para negocios.
+Landing page modular desarrollada en PHP para destacar los beneficios de Microsoft Power BI y promocionar los servicios de visualización, análisis de datos y consultoría ofrecidos por Estudio Ochoa, a través de una página clara, funcional y mobile-first.
 
 ---
 
-## 🧱 Estructura modular
+## 🚀 Objetivo
 
-- `index.php`: página principal
-- `header.php` y `footer.php`: ahora modularizados e incluidos con `include()`
-- `services.php`: nueva sección con los servicios que ofrecemos con Power BI
-- `assets/`: incluye CSS, JS, imágenes y fuentes
+Facilitar la conversión de visitas en clientes, destacando servicios como dashboards interactivos personalizados, conectividad de datos, análisis en tiempo real, KPIs y colaboración en línea.
+
+---
+
+## ⚙️ Tecnologías utilizadas
+
+- PHP modular con includes
+- Bootstrap 5
+- Lindy UI Kit
+- WOW.js y Animate.css
+- SVG + animaciones responsivas
+- Sistema de configuración (`config.php`)
+- Información dinámica de versión desde `version.json`
+
+---
+
+## 🧱 Características principales
+
+- Secciones dinámicas habilitables por configuración
+- Footer y navegación sincronizados con el estado del sitio
+- Embebido de PDF institucional
+- Imagen de clientes responsiva
+- Optimización para pantallas móviles
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+/
+├── index.php                  # Página principal
+├── config.php                 # Control de secciones
+├── version.json              # Información de versión
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   ├── nav.php
+├── secciones/
+│   ├── hero.php
+│   ├── about.php
+│   ├── services.php
+│   ├── team.php
+│   ├── pricing.php
+│   ├── contact.php
+│   ├── clientes.php
+│   ├── presentacion.php
+│   ├── banner.php
+├── assets/
+│   ├── css/
+│   ├── js/
+│   ├── img/
+│   └── docs/presentacion.pdf
+```
 
 ---
 
 ## ⚙️ Requisitos
+
+- PHP 7.4 o superior
 - Servidor web con soporte PHP (Apache, Nginx, etc.)
 
 ---
 
-## 🚀 Objetivo
-Facilitar la conversión de visitas en consultas comerciales, destacando servicios como dashboards, conectividad de datos, KPIs y colaboración en línea.
+## 🛠️ Instalación
+
+1. Cloná el repositorio o descargá el ZIP
+2. Subí los archivos a tu servidor con PHP
+3. Verificá los permisos de lectura de `version.json` y `config.php`
+4. Accedé al sitio desde el navegador
 
 ---
 
-# 📊 Landing Power BI – v1.0.0
+## 📩 Soporte
 
-Esta es la versión base (v1.0.0) de la landing page diseñada para promocionar los beneficios de Microsoft Power BI para empresas.
-
-Incluye una estructura visual moderna y responsiva, basada en:
-- Bootstrap 5 (alpha)
-- Lindy UI Kit
-- Animaciones WOW.js
-- Ilustraciones SVG y secciones reutilizables
+Desarrollado por [Hecho en el Sur](https://hechoenelsur.uy)  
+📧 info@hechoenelsur.uy
 
 ---
 
-## 🚀 Objetivo
-Promocionar servicios de implementación, visualización y consultoría en Power BI a través de una página clara, funcional y mobile-first.
+## 📝 Licencia
 
+Este proyecto es privado y de uso exclusivo de Estudio Ochoa.

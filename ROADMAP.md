@@ -1,29 +1,38 @@
-# 🛣️ Roadmap - Landing Power BI
+# 🛣️ Roadmap – Landing Power BI
 
-## Próximas versiones
+---
 
-### v1.3.0
+## 🔜 Próxima versión: v1.5.3
+
+- [ ] Separación de secciones en subcarpeta `/secciones/` (mejor organización)
+- [ ] Inclusión de testimonios (carrousel o tarjetas)
+- [ ] Animaciones de entrada en sección `presentacion.php`
+- [ ] Modo lectura accesible para PDF embebido
+- [ ] Mejora visual en sección `pricing` (badges, destacados)
+
+---
+
+## 📈 Versión futura: v1.6.0
+
 - [ ] Versión multi-idioma (ES/EN)
 - [ ] Dark mode toggle
+- [ ] Formulario con backend real (Formsubmit / PHP / Google Forms)
+- [ ] Integración con Calendly o WhatsApp Business
+- [ ] Google Analytics o Matomo
 
 ---
 
-### v1.2.0
-- [ ] Integración con Calendly o WhatsApp Business.
-- [ ] Google Analytics o Matomo.
-- [ ] Versiones multi-idioma (ES/EN).
-- [ ] Conexión real del formulario de contacto con Formsubmit o backend PHP
-- [ ] Optimización SEO por secciones
-- [ ] Etiquetado OpenGraph y meta-imágenes
-- [ ] Inclusión de testimonios reales
-- [ ] Animación scroll y mejoras visuales adicionales
+## 🔍 SEO & Marketing
+
+- [ ] Etiquetado OpenGraph completo y meta-imágenes
+- [ ] Optimización SEO por sección (title, meta description)
+- [ ] Inclusión de textos de respaldo accesibles (alt, aria-labels)
 
 ---
 
-### v1.1.0
-- [ ] Reemplazo de textos genéricos por contenido real sobre Microsoft Power BI.
-- [ ] Inclusión de testimonios y casos de éxito.
-- [ ] Optimización SEO básica.
-- [ ] Integración de formularios funcionales (formsubmit o backend).
+## 💡 Ideas para futuras versiones
 
-
+- [ ] Splash animado de presentación (solo en primera visita)
+- [ ] Integración con Google Sheets como backend de captación
+- [ ] Feedback visual post-formulario (mensaje dinámico)
+- [ ] Accesibilidad WCAG (teclado, contraste, labels)

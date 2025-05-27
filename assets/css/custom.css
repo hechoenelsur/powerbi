@@ -1,0 +1,21 @@
+/*CSS CUSTOM HECHO EN EL SUR */
+
+/* HEES */
+.nomostrar{
+  display: none;
+  visibility: hidden;
+}
+
+/* Imagen clientes-slim.png */
+@media (max-width: 576px) {
+  .clients-logo-section {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .client-logo img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}

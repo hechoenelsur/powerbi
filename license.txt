@@ -1,13 +1,24 @@
-Thanks for using the free lite version. Please, consider purchasing the full version of Template to Enjoy All Features and Freedom to Use in Commercial Projects.
+Landing Power BI – Estudio Ochoa
 
-FOR FREE LITE VERSION:
-1. Commercial Use - Not Allowed
-2. Removing Footer Credit - Not Allowed
-3. Documentation - Not Available
-4. Support - Not Provided
-5. All Features/Sections - Not Available
-6. Personal Projects - Allowed
+Este proyecto fue desarrollado por Hecho en el Sur para uso exclusivo de Estudio Ochoa. Su distribución, modificación o uso fuera de este contexto está restringido.
 
+---
 
-Best regards
-UIdeck Team
+LICENCIA DE USO:
+
+1. Uso Comercial - Permitido solo por Estudio Ochoa.
+2. Redistribución - No permitida sin autorización explícita.
+3. Remoción de Créditos - No permitida sin consentimiento previo.
+4. Soporte - Proporcionado exclusivamente por Hecho en el Sur a Estudio Ochoa.
+5. Personalización - Permitida dentro del entorno de uso aprobado.
+6. Adaptaciones - Permitidas solo por personal autorizado.
+
+---
+
+Este producto incluye código original basado en un template de UIdeck, adaptado profundamente y transformado en una solución personalizada.
+
+Para soporte o mejoras:
+📧 info@hechoenelsur.uy
+🌐 https://hechoenelsur.uy
+
+© Hecho en el Sur – 2025

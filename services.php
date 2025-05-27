@@ -77,4 +77,5 @@
   <div class="feature-img wow fadeInLeft" data-wow-delay=".2s">
     <img src="assets/img/feature/feature-2-1.svg" alt="">
   </div>
+  <br/>
 </section>
