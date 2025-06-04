@@ -11,37 +11,46 @@
     <span class="toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent2">
+  <div class="collapse navbar-collapse sub-menu-bar shadow-mobile-menu" id="navbarSupportedContent2">
     <ul id="nav2" class="navbar-nav ml-auto">
       <li class="nav-item">
         <a class="page-scroll active" href="#home">Inicio</a>
       </li>
+      <hr class="mobile-menu-divider d-block d-lg-none">
+
       <?php if ($show_services): ?>
         <li class="nav-item">
           <a class="page-scroll" href="#services">Características</a>
         </li>
+        <hr class="mobile-menu-divider d-block d-lg-none">
       <?php endif; ?>
 
-        <?php if ($show_presentacion): ?>
+      <?php if ($show_presentacion): ?>
         <li class="nav-item">
           <a class="page-scroll" href="#presentacion">Presentación</a>
         </li>
+        <hr class="mobile-menu-divider d-block d-lg-none">
       <?php endif; ?>
 
       <?php if ($show_about): ?>
         <li class="nav-item">
           <a class="page-scroll" href="#about">Nosotros</a>
         </li>
+        <hr class="mobile-menu-divider d-block d-lg-none">
       <?php endif; ?>
+
       <?php if ($show_pricing): ?>
         <li class="nav-item">
           <a class="page-scroll" href="#pricing">Precios</a>
         </li>
+        <hr class="mobile-menu-divider d-block d-lg-none">
       <?php endif; ?>
+
       <?php if ($show_contact): ?>
         <li class="nav-item">
           <a class="page-scroll" href="#contact">Contacto</a>
         </li>
+        <hr class="mobile-menu-divider d-block d-lg-none">
       <?php endif; ?>
     </ul>
     <a href="#0" class="nomostrar button button-sm radius-10 d-none d-lg-flex">MAS INFO</a>

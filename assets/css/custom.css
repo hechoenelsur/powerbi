@@ -19,3 +19,137 @@
     height: auto;
   }
 }
+
+
+@media (max-width: 991px) {
+.navbar-collapse {
+  background-color: #ccc;
+  box-shadow: 0 10px 24px rgba(13, 110, 253, 0.25); /* Tono azul Power BI */
+  position: relative;
+  z-index: 9999;
+}
+
+.navbar-collapse {
+  background-color: #ccc;
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.1),
+    0 12px 24px rgba(0, 0, 0, 0.2); /* Capas superpuestas */
+  position: relative;
+  z-index: 9999;
+}
+
+
+  .mobile-menu-divider {
+    width: 75%;
+    height: 1px;
+    margin: 0.5rem auto;
+    opacity: 0.2;
+    border: none;
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      #0d6efd,
+      transparent
+    );
+  }
+}
+/* Wrapper >Video */
+/* CSS CUSTOM HECHO EN EL SUR */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+/* Video responsivo embebido en hero.php */
+.embed-responsive-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+}
+
+.embed-responsive-container iframe {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
+/* Iconos */
+.icon.icon-lg {
+  font-size: 32px;
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #2d71f7; /* azul tipo Lindy */
+  display: inline-block;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+/* Espaciado entre características de Power BI */
+.services-section .single-feature {
+  margin-bottom: 40px; /* Podés aumentar a 50px si querés más espacio */
+}
+
+/* Iconos cuadrados con bordes suavemente redondeados */
+.services-section .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px; /* Antes probablemente era 50% */
+  background-color: #007bff; /* O el color azul que uses para Power BI */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo responsive para h3 en mobile */
+@media (max-width: 576px) {
+  h3 {
+    font-size: 1.5rem; /* Ajusta según lo necesites */
+    line-height: 1.3;
+  }
+}
+
+
+/* Imagen del equipo estilo cuadrado redondeado */
+
+/* Estilo para redondear las imágenes del equipo de forma cuadrada con bordes suaves */
+.team-img-rounded {
+  width: 100%;
+  height: auto;
+  border-radius: 12px !important; /* No completamente redondo */
+  object-fit: cover;
+  aspect-ratio: 1 / 1; /* Mantener proporción cuadrada */
+}

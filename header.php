@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/LineIcons.2.0.css"/>
     <link rel="stylesheet" href="assets/css/animate.css"/>
     <link rel="stylesheet" href="assets/css/lindy-uikit.css"/>
-    <link rel="stylesheet" href="assets/css/custom.css"/>
+    <link rel="stylesheet" href="assets/css/custom.css?v=3"/>
   </head>
   <body>
     <!--[if lte IE 9]>

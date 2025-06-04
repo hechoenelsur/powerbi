@@ -1,5 +1,41 @@
 # 📦 Changelog - Landing Power BI
 
+## [1.5.3] – 2025-06-03
+
+### Added
+
+- 🎥 Se reemplazó la imagen del `hero.php` por un **video embebido local** (`assets/videos/powerbi.mp4`), con autoplay, sin controles y responsivo.
+
+- 🟦 Se actualizaron los **iconos de beneficios** en `services.php` usando LineIcons 2.0 para mantener consistencia visual.
+
+- 📐 Se reorganizó `services.php` en **3 columnas**, con **2 beneficios por columna** (total 6).
+
+- 🎨 Se mejoró la **separación entre los bloques de características** de Power BI con margen inferior (`mb-40`).
+
+- 🧩 Clase `.icon` ahora con **fondo cuadrado redondeado** (`border-radius: 12px`) en lugar de circular.
+
+- 📱 Se agregó media query en `custom.css` para reducir tamaño de `<h3>` en mobile.
+
+- 👥 Las imágenes del equipo en `team.php` ahora usan **esquinas redondeadas suaves** (`border-radius: 12px`) en lugar del estilo semicircular.
+
+- 📏 Se aplicó `aspect-ratio: 1 / 1` y `object-fit: cover` en imágenes del equipo para mantener **uniformidad visual**.
+
+### Changed
+
+- 💾 Se reorganizó la clase `.team-img-rounded` en `custom.css` para estandarizar el estilo visual de las fotos del equipo.
+
+- 🛠 Se removieron estilos anteriores heredados que forzaban `border-radius: 50%` en imágenes del equipo.
+
+- 🧱 Mejora de **responsividad en secciones principales** (`hero`, `services`, `team`).
+
+- Las fotos del equipo en `team.php` ahora usan esquinas redondeadas suaves (`border-radius: 12px`) en lugar del estilo semicircular.
+
+- Se aplicó `aspect-ratio: 1 / 1` y `object-fit: cover` para mejorar la visualización y uniformidad en todas las resoluciones.
+
+### Infraestructura
+- Se agregó la clase `.team-img-rounded` en `custom.css` para estandarizar el estilo de las fotos del equipo.
+
+
 ## [1.5.2] – 2025-05-27
 ### Added
 - Sección `presentacion.php` con texto y PDF embebido

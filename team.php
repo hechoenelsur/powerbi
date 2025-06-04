@@ -16,7 +16,7 @@
       <div class="col-xl-3 col-md-6 col-sm-10">
         <div class="single-team wow fadeInUp" data-wow-delay=".1s">
           <div class="image">
-            <img src="assets/img/team/carlos.png" alt="Carlos Ochoa">
+            <img src="assets/img/team/carlos.jpg" alt="Carlos Ochoa" class="img-fluid team-img-rounded">
           </div>
           <div class="info">
             <h6>Carlos Ochoa</h6>
@@ -30,7 +30,7 @@
       <div class="col-xl-3 col-md-6 col-sm-10">
         <div class="single-team wow fadeInUp" data-wow-delay=".2s">
           <div class="image">
-            <img src="assets/img/team/mauricio.png" alt="Mauricio Ochoa">
+            <img src="assets/img/team/mauricio.jpg" alt="Mauricio Ochoa" class="img-fluid team-img-rounded">
           </div>
           <div class="info">
             <h6>Mauricio Ochoa</h6>
@@ -44,7 +44,7 @@
       <div class="col-xl-3 col-md-6 col-sm-10">
         <div class="single-team wow fadeInUp" data-wow-delay=".3s">
           <div class="image">
-            <img src="assets/img/team/rodrigo.png" alt="Rodrigo Zelmar García">
+            <img src="assets/img/team/rodrigo.jpg" alt="Rodrigo Zelmar García" class="img-fluid team-img-rounded">
           </div>
           <div class="info">
             <h6>Cdor. Rodrigo Zelmar García</h6>
@@ -58,7 +58,7 @@
       <div class="col-xl-3 col-md-6 col-sm-10">
         <div class="single-team wow fadeInUp" data-wow-delay=".4s">
           <div class="image">
-            <img src="assets/img/team/sebastian.png" alt="Sebastián Ochoa">
+            <img src="assets/img/team/seba.jpg" alt="Sebastián Ochoa" class="img-fluid team-img-rounded">
           </div>
           <div class="info">
             <h6>Sebastián Ochoa</h6>
@@ -72,7 +72,7 @@
       <div class="col-xl-3 col-md-6 col-sm-10">
         <div class="single-team wow fadeInUp" data-wow-delay=".5s">
           <div class="image">
-            <img src="assets/img/team/teresa.png" alt="Teresa Sosa">
+            <img src="assets/img/team/teresa.jpg" alt="Teresa Sosa" class="img-fluid team-img-rounded">
           </div>
           <div class="info">
             <h6>Teresa Sosa</h6>
@@ -86,7 +86,7 @@
       <div class="col-xl-3 col-md-6 col-sm-10">
         <div class="single-team wow fadeInUp" data-wow-delay=".6s">
           <div class="image">
-            <img src="assets/img/team/belen.png" alt="Belén Wuilman">
+            <img src="assets/img/team/magdabelen.jpg" alt="Belén Wuilman" class="img-fluid team-img-rounded">
           </div>
           <div class="info">
             <h6>Belén Wuilman</h6>
@@ -100,7 +100,7 @@
       <div class="col-xl-3 col-md-6 col-sm-10">
         <div class="single-team wow fadeInUp" data-wow-delay=".7s">
           <div class="image">
-            <img src="assets/img/team/andrea.png" alt="Andrea Piriz">
+            <img src="assets/img/team/andrea.jpg" alt="Andrea Piriz" class="img-fluid team-img-rounded">
           </div>
           <div class="info">
             <h6>Andrea Piriz</h6>

@@ -31,15 +31,15 @@
 
     <?php if ($show_services) include "services.php"; ?>
 
-    <?php if ($show_hero) include "youtube.php"; ?>
+    <!-- ?php if ($show_hero) include "youtube.php"; ? -->
 
     <?php if ($show_about) include "about.php"; ?>
 
-    <?php if ($show_banner1) include "banner.php"; ?>
+    <!-- ?php if ($show_banner1) include "banner.php"; ? -->
 
      <?php if ($show_presentacion) include "presentacion.php"; ?>
 
-    <?php if ($show_pricing) include "pricing.php"; ?>
+    <!-- ?php if ($show_pricing) include "pricing.php"; ? -->
 
 		<?php if ($show_team) include "team.php"; ?>
 

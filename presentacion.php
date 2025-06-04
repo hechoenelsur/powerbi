@@ -12,7 +12,7 @@
             </p>
           </div>
           <a href="assets/docs/presentacion.pdf" target="_blank" class="button button-lg radius-10 wow fadeInUp" data-wow-delay=".6s">
-            Ver presentación completa
+            Descargar presentación
           </a>
 
           <!-- Separador visible solo en mobile -->
