@@ -1,5 +1,23 @@
 # 📦 Changelog - Landing Power BI
 
+## [1.5.4] – 2025-06-04
+
+### Added
+- 📁 Estructura de documentación reordenada bajo la carpeta `/docs`.
+- 📄 Nuevos archivos de documentación técnica: `ROADMAP.md`, `WORKFLOW.md`, `VERSIONS.md`, `RELEASES_NOTES.md`.
+- 🧭 Definición clara de propósito para cada archivo `.md`.
+- 📚 Establecida convención de mantener `README.md` y `version.json` en el root.
+- 📌 Registro automático en memoria para recordar actualización de `VERSIONS.md` y `version.json` en cada commit.
+
+### Changed
+- 🔄 README actualizado para reflejar ubicación de la documentación en `/docs`.
+- 📂 Movidos archivos `.md` del root a la carpeta `/docs/`.
+
+### Fixed
+- 🧱 Versión `v1.5.3` fue documentada retroactivamente en `version.json`, ya que no se había actualizado en su momento.
+
+---
+
 ## [1.5.3] – 2025-06-03
 
 ### Added
@@ -35,6 +53,7 @@
 ### Infraestructura
 - Se agregó la clase `.team-img-rounded` en `custom.css` para estandarizar el estilo de las fotos del equipo.
 
+---
 
 ## [1.5.2] – 2025-05-27
 ### Added
