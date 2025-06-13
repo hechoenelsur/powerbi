@@ -19,9 +19,9 @@ Landing page desarrollada para promocionar los servicios de visualización y an�
 
 ```
 /
-├── index.php
-├── config.php
-├── version.json
+├── index.php                  # Página principal
+├── config.php                 # Control de secciones
+├── version.json              # Información de versión
 ├── includes/
 │   ├── header.php
 │   ├── footer.php
@@ -40,12 +40,39 @@ Landing page desarrollada para promocionar los servicios de visualización y an�
 │   ├── css/
 │   ├── js/
 │   ├── img/
+│   ├── video/powerbi.mp4
 │   └── docs/presentacion.pdf
 ```
 
 ---
 
 ## 📝 Histórico de versiones
+
+## 🚀 Versión 1.5.5 – Mejora visual y experiencia mobile
+
+Esta versión se enfoca en mejorar la experiencia visual en dispositivos móviles, agregando detalles visuales sutiles pero efectivos:
+
+- El video de Power BI ahora se muestra correctamente centrado en dispositivos móviles.
+- Se evita que el video se desplace hacia los márgenes, mejorando la experiencia visual.
+- Los controles de pantalla completa y sonido ahora se mantienen visibles al entrar en modo fullscreen.
+- El botón principal de llamada a la acción ("Quiero saber más") redirige correctamente a la sección `#contact`.
+- Línea divisoria azul con degradado y animación en el menú.
+- Fondo difuminado al scrollear que mejora la legibilidad y estilo.
+- Botón “Quiero saber más” ahora enlaza directamente a Contacto.
+- También se añade un favicon personalizado para identidad visual.
+
+
+🎯 Enfocado en accesibilidad, estética y experiencia de usuario en pantallas pequeñas.
+
+- 🎥 Se centró el video de presentación en mobile y se aumentó su tamaño relativo.
+- 🧭 El menú principal (`nav.php`) ahora tiene fondo gris claro a ancho completo.
+- 📱 En dispositivos móviles, cada ítem del menú es completamente clickeable (no solo el texto).
+- 🔊 Los botones de control del video ahora se superponen en pantalla completa y son visibles todo el tiempo.
+- 🔗 El botón de acción principal dirige correctamente a la sección `#contact`.
+
+🧩 Esta versión mejora la experiencia visual y la interacción en dispositivos móviles.
+
+---
 
 ### 📦 Versión 1.5.2 – 2025-05-27
 

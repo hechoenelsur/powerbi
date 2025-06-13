@@ -5,14 +5,15 @@
     <title>Estudio Ochoa - Power BI</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Place favicon.ico in the root directory -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
 
     <!-- ========================= CSS here ========================= -->
     <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
     <link rel="stylesheet" href="assets/css/LineIcons.2.0.css"/>
     <link rel="stylesheet" href="assets/css/animate.css"/>
     <link rel="stylesheet" href="assets/css/lindy-uikit.css"/>
-    <link rel="stylesheet" href="assets/css/custom.css?v=3"/>
+    <link rel="stylesheet" href="assets/css/custom.css?v=1.5.5"/>
   </head>
   <body>
     <!--[if lte IE 9]>

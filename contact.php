@@ -79,7 +79,8 @@
               <div class="single-item">
                 <div class="icon"><i class="lni lni-envelope"></i></div>
                 <div class="text">
-                  <p>sebastian@estudioochoa.uy<br>administracion@estudioochoa.uy</p>
+                  <p><a href="mailto:sebastian@estudioochoa.uy">sebastian@estudioochoa.uy</a></p>
+                  <p><a href="mailto:administracion@estudioochoa.uy">administracion@estudioochoa.uy</a></p>
                 </div>
               </div>
             </div>

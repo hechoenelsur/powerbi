@@ -1,4 +1,4 @@
-
+//v1.5.6
 (function() {
 
     /* ====================
@@ -83,3 +83,16 @@
     new WOW().init();
 
 })();
+
+// Degradee Menu
+document.addEventListener('scroll', function() {
+  const gradient = document.querySelector('.nav-gradient-spacer');
+  const scrollPosition = window.scrollY;
+
+  // Oculta el degradado cuando el scroll supera un umbral (ej. 50px)
+  if (scrollPosition > 450) {
+    gradient.classList.add('hidden');
+  } else {
+    gradient.classList.remove('hidden');
+  }
+});

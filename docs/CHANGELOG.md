@@ -1,5 +1,40 @@
 # 📦 Changelog - Landing Power BI
 
+## [1.5.5] - 2025-06-12
+
+### Added
+- 🔊 Controles visibles en pantalla completa del video: `Pantalla completa`, `Salir`, `Sonido`, siempre disponibles sobre el video.
+- 🔗 El botón "Quiero saber más" ahora redirige correctamente a `#contact`.
+- ✳️ Se agregó una línea divisoria inferior animada en `nav.php` con color azul (`#0d6efd`), sombra suave y gradiente.
+- 🌈 Se incorporó un espaciador con **degradado blanco → transparente** debajo del menú móvil para lograr un efecto de fusión visual al hacer scroll.
+- 🧭 Se agregó `favicon.png` (512x512, letras EO en azul Times New Roman).
+- 🧠 Documentación de buenas prácticas sobre estructura, licensing y control de cambios.
+
+
+### Changed
+- 📱 Mejorado el centrado del video en dispositivos móviles (`hero.php`).
+- 🎯 `.video-wrapper` ajustado para simetría horizontal y mejor escalado en resoluciones pequeñas.
+- 🎨 `nav.php`: fondo del menú ahora usa gris claro (`#f8f9fa`) a pantalla completa.
+- 📱🖱 Efecto `hover` ampliado en mobile para que el enlace ocupe el ancho completo del ítem del menú.
+Ajustes visuales del menú móvil: ahora el *hover* ocupa todo el ancho del `li`.
+- 📐 Separación y márgenes mejorados entre ítems (`nav-item`) en vista mobile.
+En menu nav.php se comentó el codigo que mostraba un (`<hr/>`) estilizado ya que dejaba una separación importante entre items.
+
+- 📦 El logo y botón hamburguesa ahora tienen márgenes laterales (`ms-2`, `me-2`) para mejor alineación visual.
+🎥 En mobile, el video ahora se muestra más grande y centrado, con controles visibles en modo fullscreen.
+- 📍 El botón **“Quiero saber más”** ahora enlaza correctamente a `#contact`.
+
+
+
+### Infraestructura
+- 🔄 Código de estilos centralizado en `custom.css` para `nav`, `video-wrapper` y comportamiento en mobile.
+- 🔧 Mejorado el control de `overflow` al entrar en modo fullscreen para evitar desplazamientos inesperados.
+- 📁 `favicon.png` agregado en raíz del proyecto.
+- ✅ Nuevos estilos aplicados en `custom.css` para `.nav-gradient-spacer`, `.navbar`, `.hero-section-wrapper-2`.
+
+
+---
+
 ## [1.5.4] – 2025-06-04
 
 ### Added

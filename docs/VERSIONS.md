@@ -2,6 +2,7 @@
 
 | Versión | Fecha       | Cambios clave                                                                 |
 |---------|-------------|-------------------------------------------------------------------------------|
+| 1.5.5   | 2025-06-12  | Video responsive mejorado en `hero.php`, menú mobile y controles visibles en fullscreen, Favicon, mejoras menú mobile, degradado en nav    |
 | 1.5.4   | 2025-06-04  | Estructura de documentación reorganizada, nuevos `.md`, fix de version.json   |
 | 1.5.3   | 2025-06-03  | Video en hero, iconos y diseño actualizados en services, imágenes de equipo uniformes |
 | 1.5.2   | 2025-05-27  | PDF embebido, mejoras en footer, responsive, banner y menú dinámico          |

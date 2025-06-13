@@ -153,3 +153,144 @@
   object-fit: cover;
   aspect-ratio: 1 / 1; /* Mantener proporción cuadrada */
 }
+
+/* NAV Fondo gris claro del menú */
+/* 🟦 NAVBAR - Fondo gris total */
+
+/*.hero-section-wrapper-2 .header {
+  background-color: #f8f9fa !important;
+  color: #0d6efd !important;
+}
+*/
+/* Fondo gris claro solo al nav */
+.navbar {
+  background-color: #f8f9fa !important;
+  padding: 1rem 2rem;
+}
+
+/* Línea azul inferior del nav */
+.border-bottom-blue {
+  border-bottom: 4px solid #2F80ED; /* azul primario */
+}
+
+/* Hover sobre enlaces */
+/*.navbar-nav .nav-item a:hover {
+  color: #0d6efd !important;
+  background-color: rgba(13, 110, 253, 0.1); /* azul claro */
+ /* border-radius: 6px;
+}*/
+
+/* Línea azul animada en el borde inferior del nav */
+.nav-underline-animated {
+  position: relative;
+  z-index: 10;
+}
+
+/* Línea inferior con gradiente y animación */
+.nav-underline-animated::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, #2F80ED, #56CCF2);
+  box-shadow: 0 2px 8px rgba(47, 128, 237, 0.3);
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: underlineGrow 1s ease forwards;
+}
+
+/* Animación */
+@keyframes underlineGrow {
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+/* Espaciador degradado blanco → transparente (solo para mobile) */
+.nav-gradient-spacer {
+  height: 40px;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  position: absolute; /* Cambiado a absolute para superponerse al contenido */
+  top: 100%; /* Coloca el degradado justo debajo del nav */
+  left: 0;
+  z-index: 9;
+  pointer-events: none; /* Evita que el degradado interfiera con clics */
+  transition: opacity 0.3s ease; /* Suaviza el cambio de opacidad */
+}
+
+.nav-gradient-spacer.hidden {
+  opacity: 0; /* Clase para ocultar el degradado al hacer scroll */
+}
+
+
+
+/* FIN NAV */
+
+/* Títulos H4 estilo Lindy */
+h4 {
+  color: #0d6efd !important;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  background-color: #f8f9fa !important;
+  width: 100%;
+  border-bottom: 1px solid #dee2e6;
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
+
+/* Menú colapsado (mobile) también con fondo gris */
+.navbar-collapse {
+  background-color: #f8f9fa !important;
+}
+
+/* Ítems del menú con efecto hover claro */
+.navbar-nav .nav-item .page-scroll {
+  padding: 8px 14px;
+  border-radius: 8px;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-item .page-scroll:hover,
+.navbar-nav .nav-item .page-scroll:focus {
+  background-color: #e2e6ea;
+  color: #0d6efd !important;
+}
+
+/* Línea divisoria en mobile centrada y estilizada */
+.mobile-menu-divider {
+  width: 75%;
+  margin: 0.5rem auto;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Hover full-width en mobile y desktop para ítems del menú */
+.navbar-nav .nav-item > a {
+  display: block;
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo al pasar el mouse o al hacer foco */
+.navbar-nav .nav-item > a:hover,
+.navbar-nav .nav-item > a:focus {
+  background-color: rgba(13, 110, 253, 0.1); /* azul suave */
+}
+
+/* Team lindy.uykit */
+.team-style-1 {
+  background: #fff !important;
+  }

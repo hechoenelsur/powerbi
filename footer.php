@@ -44,7 +44,7 @@ $build = $version_info['build'] ?? '';
           </div>
         </div>
 
-        <!-- BLOQUE DE SERVICIOS (se puede mantener o eliminar si querés usar otro contenido) -->
+        <!-- BLOQUE DE SERVICIOS  -->
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
           <div class="footer-widget wow fadeInUp" data-wow-delay=".4s">
             <h6>Servicios</h6>
@@ -70,13 +70,9 @@ $build = $version_info['build'] ?? '';
     </ul>
   </div>
 </div>
-
-
       </div>
     </div>
   </div>
-
-
 
 <div class="copyright-wrapper wow fadeInUp" data-wow-delay=".2s">
   <p class="text-center text-sm-start">
@@ -97,13 +93,13 @@ $build = $version_info['build'] ?? '';
     </footer>
     <!-- ========================= footer style-1 end ========================= -->
 
-    <!-- ========================= scroll-top start ========================= -->
+    <!-- ========================= scroll-top Inicio ========================= -->
     <a href="#" class="scroll-top"> <i class="lni lni-chevron-up"></i> </a>
-    <!-- ========================= scroll-top end ========================= -->
+    <!-- ========================= scroll-top Fin ========================= -->
 		
 
     <!-- ========================= JS here ========================= -->
     <script src="assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
     <script src="assets/js/count-up.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js?v=1.5.5"></script>
